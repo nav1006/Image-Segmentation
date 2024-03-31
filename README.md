@@ -1,0 +1,2 @@
+I tried to implement image segmentation using Yolov8 and Segment Anything(SAM). In this implementation the Yolov8 model is trained on the custom dataset, with the help of this the bounding boxes are generated. These bounding boxes are given to SAM, which generates mask to the input and then segmenents the identifiable object with a white background.
+I have taken help from the research paper - Segment anything (https://doi.org/10.48550/arXiv.2304.02643) 
